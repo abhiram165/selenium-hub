@@ -1,1 +1,4 @@
 FROM selenium/node-firefox:4.4.0-20220831
+ENV SE_EVENT_BUS_HOST=hub-rajneesh.selenium-test.internal.selenium.com
+ENV SE_EVENT_BUS_PUBLISH_PORT=4442
+ENV SE_EVENT_BUS_SUBSCRIBE_PORT=4443
