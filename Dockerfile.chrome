@@ -1,0 +1,1 @@
+FROM selenium/node-chrome:4.4.0-20220831
